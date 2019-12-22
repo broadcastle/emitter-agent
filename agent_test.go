@@ -72,6 +72,7 @@ func TestActions(t *testing.T) {
 	sendDT := testSend{true, "https://google.com"}
 
 	sendDL, err := PrepSender("remote", "dl", sendDT)
+	assert.NoError(t, err)
 
 	remote.Send(sendDL)
 
@@ -82,7 +83,7 @@ func TestActions(t *testing.T) {
 }
 
 func parseMessage(_ Client, content string) {
-	fmt.Printf("remote recieved: %s\n", content)
+	fmt.Printf("remote received: %s\n", content)
 }
 
 func sayThanks(fr Client, content string) {

@@ -1,5 +1,7 @@
 # Readme
 
+[![Go Report Card](https://goreportcard.com/badge/broadcastle.co/code/emitter-agent)](https://goreportcard.com/report/broadcastle.co/code/emitter-agent) [![api documentation](http://b.repl.ca/v1/api-documentation-blue.png)](https://godoc.org/broadcastle.co/code/emitter-agent)
+
 ## Introduction
 
 This project is based off [emitter-actor](https://github.com/kelindar/emitter-actor/).
